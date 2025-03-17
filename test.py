@@ -60,7 +60,3 @@ class TestPriorityQueue(unittest.TestCase):
     self.assertEqual(pq.pop(), "Task 3")
     self.assertEqual(pq.pop(), "Task 1")
     self.assertIsNone(pq.pop())
-
-
-if __name__ == "__main__":
-  unittest.main()
